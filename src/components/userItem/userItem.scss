@@ -1,0 +1,29 @@
+.items-post {
+  width: 45%;
+  height: 250px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333348;
+  border-radius: 25px;
+
+  div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    color: #EEEEEE;
+    button {
+      background-color: #52519D;
+      width: 196px;
+      height: 55px;
+      color: #EEEEEE;
+      border-radius: 40px;
+      border-color: #12122D;
+      cursor: pointer;
+    }
+  }
+}
+

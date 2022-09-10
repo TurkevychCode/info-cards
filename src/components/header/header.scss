@@ -1,0 +1,25 @@
+.header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+      div {
+        color: white;
+        cursor: pointer;
+         background-color: #52519D;
+        padding: 5px 20px 5px 20px;
+        border-radius: 20px;
+      }
+
+      input {
+        width: 200px;
+        height: 40px;
+        background-color: #333348;
+        font-size: 15px;
+        padding: 0 25px;
+        border-radius: 25px;
+        border-color: #12122D;
+      }
+}
+
